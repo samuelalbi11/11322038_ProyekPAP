@@ -1,5 +1,4 @@
 .header {
-
     background-color: #3D1259;
     padding: 80px;
     height: 335px;
@@ -9,14 +8,28 @@
     align-items: center;
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:991px) {
     .kartu {
         flex-direction: column;
         align-items: center;
     }
 
-    .carousel>.carousel-inner>.carousel-item>img {
-        height: 10px;
+    .imgfite{
+        width: 100%;
+        width: 80%;
+    }
+    
+    .fitecard{
+        flex-direction: column;
+        align-items: center;
+    }
+   
+}
+
+@media screen and (max-width:800px) {
+    .kartu {
+        flex-direction: column;
+        align-items: center;
     }
 
     .header {
@@ -28,6 +41,13 @@
         align-items: center;
     }
 
+    .lulusandelimg{
+        width: 80%;
+    }
+
+    .fiteimg{
+        width:80%;
+    }
 
 }
 
@@ -74,6 +94,18 @@
         padding-right: 50px;
     }
 
+    .nav-item .dropdown-menu {
+        display: none;
+      }
+      
+      .nav-item:hover .dropdown-menu {
+        display: block;
+      }
+      
+      .nav-link:hover {
+        cursor: pointer;
+      }
+
 
 }
 
@@ -89,3 +121,5 @@
     height: 75px;
     text-align: center;
   }
+
+
