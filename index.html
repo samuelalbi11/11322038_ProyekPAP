@@ -8,13 +8,14 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kmlpandey77/bootnavbar@v1.1.1/css/bootnavbar.css" />
 
 </head>
 
 <body>
 
     <!-- Headers -->
-    <nav class="navbar navbar-expand-lg heder py-2" style="background-color:  #3D1259;">
+    <nav class="navbar navbar-expand-lg heder py-2" id="main_navbar" style="background-color:  #3D1259;">
         <div class="container-fluid px-3">
             <a class="navbar-brand" href="./index.html"><img src="assets/logo.jpg" width="30%" class="rounded"
                     alt=""></a>
@@ -29,6 +30,7 @@
                         <a class="nav-link active  fw-semibold text-white" aria-current="page"
                             href="index.html">Dashboard</a>
                     </li>
+
                     <li class="nav-item">
                         <a class="nav-link  fw-semibold text-white" href="pengumuman.html">Pengumuman</a>
                     </li>
@@ -50,26 +52,84 @@
                     </li>
 
 
-
-
-
                     <li class="nav-item">
                         <a class="nav-link  fw-semibold text-white" href="fasilitas.html">Fasilitas</a>
                     </li>
 
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white fw-semibold" href="#" role="button"
+                            data-bs-toggle="dropdown">
+                            Lembaga
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="nav-item dropdown">
+                                <a class="dropdown-item dropdown-toggle " href="#" role="button"
+                                    data-bs-toggle="dropdown">
+                                    Lembaga Penelititan
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="lppm.html">LPPM</a></li>
+                                    <li>
+                                        <a class="dropdown-item" href="soqrates.html">Del Soqrates Centre</a>
+                                    </li>
+                                </ul>
 
-                    <li class="nav-item">
-                        <a class="nav-link  fw-semibold text-white" href="#">Lembaga</a>
+                            </li>
+
+                            <li><a class="dropdown-item" href="kerja-sama.html">Mitra Kerja Sama Dengan IT Del</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="dropdown-item dropdown-toggle " href="#" role="button"
+                                    data-bs-toggle="dropdown">
+                                    UPT
+                                </a>
+                                <ul class="dropdown-menu">
+
+                                    <li>
+                                        <a class="dropdown-item" href="pp-estem.html">PP-ESTEM</a>
+                                        <a class="dropdown-item" href="personel.html">Personel</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="dropdown-item dropdown-toggle " href="#" role="button"
+                                            data-bs-toggle="dropdown">
+                                            Proyek
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <a class="dropdown-item" href="proyek-eastem.html">Proyek ESTEM</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="mitra.html">Mitra</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="rapat.html">Rapat</a>
+                                                <a class="dropdown-item" href="kegiatan.html">Kegiatan</a>
+                                            </li>
+                                        </ul>
+
+                                    </li>
+
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item" href="penjaminan-mutu.html">Sistem Penjaminan Mutu</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="pusat-modal.html"> Pusat Modal Manusia (PMM)</a>
+                            </li>
+
+
+
+
+                            <li>
+                                <a class="dropdown-item" href="koperasi.html">Koperasi</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="pusat-bahasa.html">Pusat Bahasa Del</a>
+                            </li>
+
+                        </ul>
                     </li>
-
-
-
-
-
-
-
-
-
 
                 </ul>
 
@@ -88,23 +148,29 @@
             <div class="carousel-inner rounded">
                 <div class="carousel-item active " data-bs-interval="10000 ">
                     <img src="assets/coloreal1.jpeg" class="d-block w-100 " alt="...">
-                    <div class="carousel-caption d-none d-md-block text-white ">
-                        <h3>First slide label</h3>
-                        <p>Some representative placeholder content for the first slide.</p>
+                    <div class="carousel-caption d-none d-md-block text-white bg-dark rounded ">
+                        <h3>Tampilan Drone IT DEL</h3>
+                        <p class="px-3">
+                            Institut Teknologi Del (IT Del) memancarkan keindahan yang unik dengan paduan arsitektur
+                            modern yang canggih dan suasana lingkungan hijau yang menyejukkan. </p>
                     </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="2000">
                     <img src="assets/cororeal2.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block text-white">
-                        <h3>Second slide label</h3>
-                        <p>Some representative placeholder content for the second slide.</p>
+                    <div class="carousel-caption d-none d-md-block text-white bg-dark rounded ">
+                        <h3>Tampilan Gedung Pembelajaran IT DEL</h3>
+                        <p class="px-3">Kelas di Institut Teknologi Del (IT Del) adalah ruang pembelajaran yang
+                            mencerminkan atmosfer
+                            dinamis dan inovatif.Dilengkapi dengan fasilitas modern dan teknologi terkini, setiap kelas
+                            dirancang untuk memberikan pengalaman belajar yang interaktif</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="assets/daftar_2.jpeg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block text-white">
-                        <h3>Third slide label</h3>
-                        <p>Some representative placeholder content for the third slide.</p>
+                    <img src="assets/mahasiswa.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block text-white bg-dark rounded ">
+                        <h3>Mahasiswa It Del</h3>
+                        <p class="px-3">Mahasiswa di Institut Teknologi Del (IT Del) adalah kelompok yang dinamis, penuh
+                            semangat, dan bersemangat untuk mengejar keunggulan di bidang teknologi. </p>
                     </div>
                 </div>
             </div>
@@ -245,31 +311,44 @@
         <div>
             <h4 class="text-center pt-3">Lembaga</h4>
             <section class="d-flex  px-5 kartu">
-                <div class="card m-3" style="width: 18rem;">
-                    <img src="assets/corousel1.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's content.</p>
+                <a href="proyek-eastem.html" class="text-decoration-none">
+                    <div class="card m-3" style="width: 18rem;">
+                        <img src="assets/estem-roadmap.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text text-truncate">Sesuai dengan program kerja, berikut ini adalah roadmap
+                                EASTEM priode
+                                tahun 2019-2021</p>
+                        </div>
                     </div>
-                </div>
-                <div class="card m-3" style="width: 18rem;">
-                    <img src="assets/corousel2.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's content.</p>
+                </a>
+                <a href="proyek-eastem.html" class="text-decoration-none">
+                    <div class="card m-3" style="width: 18rem;">
+                        <img src="assets/estem_workpackages.png" class="card-img-top" alt="..." height="168px">
+                        <div class="card-body text-truncate">
+                            <p class="card-text">Program kerja EASTEM dibagi menjadi enam bagian yaitu preparasi (WP 1),
+                                Pengembangan (WP 2, WP 3, WP 4), Kualitas (WP 5), Diseminasi & Eksploitasi (WP 6),
+                                Manajemen (WP 7) </p>
+                        </div>
                     </div>
-                </div>
-                <div class="card m-3" style="width: 18rem;">
-                    <img src="assets/corousel1.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's content.</p>
+                </a>
+                <a href="proyek-eastem.html" class="text-decoration-none">
+                    <div class="card m-3" style="width: 18rem;">
+                        <img src="assets/eastemLogo.png" class="card-img-top" alt="..." height="168px">
+                        <div class="card-body">
+                            <p class="card-text text-truncate">STEM merupakan singkatan dari Science, Technology,
+                                Engineering, and
+                                Mathematics (Ilmu pengetahuan, Teknologi, Rekayasa, dan Matematika). Pendidikan STEM
+                                adalah suatu pendekatan pembelajaran berdasarkan interaksi intensif antar satu atau
+                                lebih disiplin ilmu yang menghasilkan pengalaman berbasis praktek langsung. </p>
+                        </div>
                     </div>
-                </div>
+                </a>
+
             </section>
+            <div class="d-flex justify-content-center p-5">
+                <button type="button" class="btn " style="background-color: #3D1259;"><a href="proyek-eastem.html"
+                        class="text-decoration-none text-white">Selengkapnya</a></button>
+            </div>
         </div>
     </div>
 
@@ -316,41 +395,33 @@
                 </div>
 
 
-                <div class="col-md-5 offset-md-1 mb-3">
-                    <form>
-                        <h5>Subscribe to our newsletter</h5>
-                        <p>Monthly digest of what's new and exciting from us.</p>
-                        <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-                            <label for="newsletter1" class="visually-hidden">Email address</label>
-                            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-                            <button class="btn btn-primary" type="button">Subscribe</button>
-                        </div>
-                    </form>
+
+
+                <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                    <p>&copy; 2022 Company, Inc. All rights reserved.</p>
+                    <ul class="list-unstyled d-flex">
+                        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+                                    <use xlink:href="#twitter" />
+                                </svg></a></li>
+                        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+                                    <use xlink:href="#instagram" />
+                                </svg></a></li>
+                        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+                                    <use xlink:href="#facebook" />
+                                </svg></a></li>
+                    </ul>
                 </div>
             </div>
 
-            <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-                <p>&copy; 2022 Company, Inc. All rights reserved.</p>
-                <ul class="list-unstyled d-flex">
-                    <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
-                                <use xlink:href="#twitter" />
-                            </svg></a></li>
-                    <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
-                                <use xlink:href="#instagram" />
-                            </svg></a></li>
-                    <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
-                                <use xlink:href="#facebook" />
-                            </svg></a></li>
-                </ul>
-            </div>
+        </footer>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/iconify/2.0.0/iconify.min.js"
-        integrity="sha512-lYMiwcB608+RcqJmP93CMe7b4i9G9QK1RbixsNu4PzMRJMsqr/bUrkXUuFzCNsRUo3IXNUr5hz98lINURv5CNA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="bootnavbar.js"></script>
+    <script>
+        new bootnavbar();
+    </script>
 </body>
 
 </html>

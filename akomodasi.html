@@ -13,8 +13,8 @@
 <body>
 
 
-   <!-- Headers -->
-   <nav class="navbar navbar-expand-lg heder py-2" style="background-color:  #3D1259;">
+  <!-- Headers -->
+  <nav class="navbar navbar-expand-lg heder py-2" id="main_navbar" style="background-color:  #3D1259;">
     <div class="container-fluid px-3">
         <a class="navbar-brand" href="./index.html"><img src="assets/logo.jpg" width="30%" class="rounded"
                 alt=""></a>
@@ -29,6 +29,7 @@
                     <a class="nav-link active  fw-semibold text-white" aria-current="page"
                         href="index.html">Dashboard</a>
                 </li>
+
                 <li class="nav-item">
                     <a class="nav-link  fw-semibold text-white" href="pengumuman.html">Pengumuman</a>
                 </li>
@@ -50,26 +51,84 @@
                 </li>
 
 
-
-
-
                 <li class="nav-item">
                     <a class="nav-link  fw-semibold text-white" href="fasilitas.html">Fasilitas</a>
                 </li>
 
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white fw-semibold" href="#" role="button"
+                        data-bs-toggle="dropdown">
+                        Lembaga
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-item dropdown-toggle " href="#" role="button"
+                                data-bs-toggle="dropdown">
+                                Lembaga Penelititan
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="lppm.html">LPPM</a></li>
+                                <li>
+                                    <a class="dropdown-item" href="soqrates.html">Del Soqrates Centre</a>
+                                </li>
+                            </ul>
 
-                <li class="nav-item">
-                    <a class="nav-link  fw-semibold text-white" href="#">Lembaga</a>
+                        </li>
+
+                        <li><a class="dropdown-item" href="kerja-sama.html">Mitra Kerja Sama Dengan IT Del</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-item dropdown-toggle " href="#" role="button"
+                                data-bs-toggle="dropdown">
+                                UPT
+                            </a>
+                            <ul class="dropdown-menu">
+
+                                <li>
+                                    <a class="dropdown-item" href="pp-estem.html">PP-ESTEM</a>
+                                    <a class="dropdown-item" href="personel.html">Personel</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="dropdown-item dropdown-toggle " href="#" role="button"
+                                        data-bs-toggle="dropdown">
+                                        Proyek
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a class="dropdown-item" href="proyek-eastem.html">Proyek ESTEM</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="mitra.html">Mitra</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="rapat.html">Rapat</a>
+                                            <a class="dropdown-item" href="kegiatan.html">Kegiatan</a>
+                                        </li>
+                                    </ul>
+
+                                </li>
+
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item" href="penjaminan-mutu.html">Sistem Penjaminan Mutu</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="pusat-modal.html"> Pusat Modal Manusia (PMM)</a>
+                        </li>
+
+
+
+
+                        <li>
+                            <a class="dropdown-item" href="koperasi.html">Koperasi</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="pusat-bahasa.html">Pusat Bahasa Del</a>
+                        </li>
+
+                    </ul>
                 </li>
-
-
-
-
-
-
-
-
-
 
             </ul>
 
@@ -165,57 +224,46 @@
 
 
 
-    <!-- Footer -->
-    <div class=" bg-dark text-white p-5">
-        <footer>
-            <div class="row ">
-                <div class="col-6 col-md-2 mb-3">
-                    <h5>Kontak Kami</h5>
-                    <ul class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white ">Institut Teknologi DelJl.
-                                Sisingamangaraja, SitoluamaLaguboti, Toba SamosirSumatera Utara, IndonesiaKode </a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white ">Pos: 22381</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white ">Telp: +62 632 331234</a>
-                        </li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white ">Fax: +62 632 331116</a>
-                        </li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white ">Website:
-                                http://www.del.ac.id</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white ">Email: info@del.ac.id</a>
-                        </li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white ">Karir:
-                                karir@del.ac.id</a></li>
-                    </ul>
-                </div>
-
-                <div class="col-6 col-md-2 mb-3">
-                    <h5>Get Connected On Social Media</h5>
-                    <ul class="nav flex-column">
-                        <li class="nav-item mb-2 pt-2"><a href="#" class="nav-link p-0 text-white "><iconify-icon
-                                    icon="skill-icons:instagram" width="40px"></iconify-icon></a></li>
-                        <li class="nav-item mb-2 pt-2 "><a href="#" class="nav-link p-0 text-white "><iconify-icon
-                                    icon="devicon:twitter" width="33px" class="bg-light p-1 rounded"></iconify-icon></a>
-                        </li>
-                        <li class="nav-item mb-2 pt-2"><a href="#" class="nav-link p-0 text-white "><iconify-icon
-                                    icon="logos:facebook" width="40px"></iconify-icon></a></li>
-                        <li class="nav-item mb-2 pt-2"><a href="#" class="nav-link p-0 text-white "><iconify-icon
-                                    icon="bi:threads-fill" width="40px"></iconify-icon></a></li>
-                    </ul>
-                </div>
-
-
-                <div class="col-md-5 offset-md-1 mb-3">
-                    <form>
-                        <h5>Subscribe to our newsletter</h5>
-                        <p>Monthly digest of what's new and exciting from us.</p>
-                        <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-                            <label for="newsletter1" class="visually-hidden">Email address</label>
-                            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-                            <button class="btn btn-primary" type="button">Subscribe</button>
-                        </div>
-                    </form>
-                </div>
+   <!-- Footer -->
+   <div class=" bg-dark text-white p-5">
+    <footer>
+        <div class="row ">
+            <div class="col-6 col-md-2 mb-3">
+                <h5>Kontak Kami</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white ">Institut Teknologi DelJl.
+                            Sisingamangaraja, SitoluamaLaguboti, Toba SamosirSumatera Utara, IndonesiaKode </a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white ">Pos: 22381</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white ">Telp: +62 632 331234</a>
+                    </li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white ">Fax: +62 632 331116</a>
+                    </li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white ">Website:
+                            http://www.del.ac.id</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white ">Email: info@del.ac.id</a>
+                    </li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white ">Karir:
+                            karir@del.ac.id</a></li>
+                </ul>
             </div>
+
+            <div class="col-6 col-md-2 mb-3">
+                <h5>Get Connected On Social Media</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2 pt-2"><a href="#" class="nav-link p-0 text-white "><iconify-icon
+                                icon="skill-icons:instagram" width="40px"></iconify-icon></a></li>
+                    <li class="nav-item mb-2 pt-2 "><a href="#" class="nav-link p-0 text-white "><iconify-icon
+                                icon="devicon:twitter" width="33px" class="bg-light p-1 rounded"></iconify-icon></a>
+                    </li>
+                    <li class="nav-item mb-2 pt-2"><a href="#" class="nav-link p-0 text-white "><iconify-icon
+                                icon="logos:facebook" width="40px"></iconify-icon></a></li>
+                    <li class="nav-item mb-2 pt-2"><a href="#" class="nav-link p-0 text-white "><iconify-icon
+                                icon="bi:threads-fill" width="40px"></iconify-icon></a></li>
+                </ul>
+            </div>
+
+
+
 
             <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
                 <p>&copy; 2022 Company, Inc. All rights reserved.</p>
@@ -231,13 +279,17 @@
                             </svg></a></li>
                 </ul>
             </div>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/iconify/2.0.0/iconify.min.js"
-        integrity="sha512-lYMiwcB608+RcqJmP93CMe7b4i9G9QK1RbixsNu4PzMRJMsqr/bUrkXUuFzCNsRUo3IXNUr5hz98lINURv5CNA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        </div>
 
-    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    </footer>
+</div>
+
+<script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="bootnavbar.js"></script>
+<script>
+    new bootnavbar();
+</script>
 </body>
 
 </html>

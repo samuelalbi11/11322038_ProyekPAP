@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Headers -->
+    <nav class="navbar navbar-expand-lg heder py-2" id="main_navbar" style="background-color:  #3D1259;">
+        <div class="container-fluid px-3">
+            <a class="navbar-brand" href="./index.html"><img src="assets/logo.jpg" width="30%" class="rounded"
+                    alt=""></a>
+            <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon "></span>
+            </button>
+            <div class="collapse navbar-collapse sechead" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0 ulli ">
+                    <li class="nav-item">
+                        <a class="nav-link active  fw-semibold text-white" aria-current="page"
+                            href="index.html">Dashboard</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link  fw-semibold text-white" href="pengumuman.html">Pengumuman</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white fw-semibold" href="#" id="navbarDropdown"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Program Pendidikan
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="program-pendidikan.html">Apa Itu Program Pendidikan</a>
+                            </li>
+                            <li><a class="dropdown-item" href="fite.html">Fakultas Informatika & Teknik Elektro</a></li>
+                            <li><a class="dropdown-item" href="vokasi.html">Fakultas Vokasi</a></li>
+                            <li><a class="dropdown-item" href="bioteknologi.html">Fakultas Bioteknologi</a></li>
+                            <li><a class="dropdown-item" href="teknologi-industri.html">Fakultas Teknologi Industri</a>
+                            </li>
+                        </ul>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link  fw-semibold text-white" href="fasilitas.html">Fasilitas</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white fw-semibold" href="#" role="button"
+                            data-bs-toggle="dropdown">
+                            Lembaga
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="nav-item dropdown">
+                                <a class="dropdown-item dropdown-toggle " href="#" role="button"
+                                    data-bs-toggle="dropdown">
+                                    Lembaga Penelititan
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="lppm.html">LPPM</a></li>
+                                    <li>
+                                        <a class="dropdown-item" href="soqrates.html">Del Soqrates Centre</a>
+                                    </li>
+                                </ul>
+
+                            </li>
+
+                            <li><a class="dropdown-item" href="kerja-sama.html">Mitra Kerja Sama Dengan IT Del</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="dropdown-item dropdown-toggle " href="#" role="button"
+                                    data-bs-toggle="dropdown">
+                                    UPT
+                                </a>
+                                <ul class="dropdown-menu">
+
+                                    <li>
+                                        <a class="dropdown-item" href="pp-estem.html">PP-ESTEM</a>
+                                        <a class="dropdown-item" href="personel.html">Personel</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="dropdown-item dropdown-toggle " href="#" role="button"
+                                            data-bs-toggle="dropdown">
+                                            Proyek
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <a class="dropdown-item" href="proyek-eastem.html">Proyek ESTEM</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="mitra.html">Mitra</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="rapat.html">Rapat</a>
+                                                <a class="dropdown-item" href="kegiatan.html">Kegiatan</a>
+                                            </li>
+                                        </ul>
+
+                                    </li>
+
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item" href="penjaminan-mutu.html">Sistem Penjaminan Mutu</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="pusat-modal.html"> Pusat Modal Manusia (PMM)</a>
+                            </li>
+
+
+
+
+                            <li>
+                                <a class="dropdown-item" href="koperasi.html">Koperasi</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="pusat-bahasa.html">Pusat Bahasa Del</a>
+                            </li>
+
+                        </ul>
+                    </li>
+
+                </ul>
+
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light fw-semibold " type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+    <div class="px-5 pt-5">
+        <h1 class="text-center">Mitra Kerjasama Dengan IT Del</h1>
+        <hr style="height:5px;border:none;color:#000;background-color:#000;">
+    </div>
+
+
+    <section class="d-flex justify-content-center">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide w-75 pb-5 ">
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true"
+                            aria-controls="panelsStayOpen-collapseOne">
+                            Mitra Kerjasama Dengan IT Del Tahun 2014
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                        <div class="accordion-body">
+                            <strong>Berikut Mitra Kerjasama dengan Institut Teknologi Del Tahun 2014 : </strong>
+                            <ol>
+                                <li>
+                                    <a href="#">
+                                        Universitas Pelita Harapan
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Dekan Fakultas Sains dan Teknologi Universitas Pelita Harapan
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        PT. Lifelong Learning
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Universitas Sumatera Utara
+                                    </a>
+                                </li>
+
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseTwo">
+                            Mitra Kerjasama Dengan IT Del Tahun 2015
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <strong>Berikut Mitra Kerjasama dengan Institut Teknologi Del Tahun 2015 : </strong>
+                            <ol>
+                                <li>
+                                    <a href="#">
+                                        Universitas Pelita Harapan
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Dekan Fakultas Sains dan Teknologi Universitas Pelita Harapan
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        PT. Lifelong Learning
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Universitas Sumatera Utara
+                                    </a>
+                                </li>
+
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseThree">
+                            Mitra Kerjasama Dengan IT Del Tahun 2016
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <strong>Berikut Mitra Kerjasama dengan Institut Teknologi Del Tahun 2016 :</strong>
+                            <ol>
+                                <li><a href="#">Mirum Agency</a></li>
+                                <li><a href="#">Pemerintah Kabupaten Tolikara</a></li>
+                                <li><a href="#">PT Medan Inovasi Bersama</a></li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseThree">
+                            Mitra Kerjasama Dengan IT Del Tahun 2017
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <strong>Berikut Mitra Kerjasama dengan Institut Teknologi Del Tahun 2017 :</strong>
+                            <ol>
+                                <li><a href="#">Universitas Kristen Maranatha</a></li>
+                                <li><a href="#">Sekolah Tinggi Keguruan dan Ilmu Pendidikan (STIKIP) SoE</a></li>
+                                <li><a href="#">Universitas Kristen Maranatha</a></li>
+                                <li><a href="#">Universitas Kristen Krida Wacana</a></li>
+                                <li><a href="#">Universitas Kristen Petra</a></li>
+                                <li><a href="#">Universitas Methodist Indonesia</a></li>
+                                <li><a href="#">Universitas Kristen Indonesia Tomohon (UKIT)</a></li>
+                                <li><a href="#">Universitas Kristen Indonesia (UKI) – Toraja</a></li>
+                                <li><a href="#">Akper RS PGI – Cikini</a></li>
+                                <li><a href="#">Sekolah Tinggi Ilmu Ekonomi (STIE) Triatma Mulya</a></li>
+                                <li><a href="#">Universitas Kristen Palangkaraya (UNKRIP)</a></li>
+                                <li><a href="#">Universitas Tribuana Kalabahi</a></li>
+                                <li><a href="#">Universitas Kristen Indonesia (UKI) – Paulus</a></li>
+                                <li><a href="#">Universitas Ottow Geissler (UOG) Papua</a></li>
+                                <li><a href="#">Universitas Kristen Immanuel</a></li>
+                                <li><a href="#">Universitas Halmahera</a></li>
+                                <li><a href="#">Universitas Kristen Tentena</a></li>
+                                <li><a href="#">Universitas Kristen Artha Wacana (UKAW) – Kupang</a></li>
+                                <li><a href="#">Universitas Kristen Wira Wacana</a></li>
+                                <li><a href="#">Universitas Kristen Indonesia – Jakarta</a></li>
+                                <li><a href="#">Universitas Dhyana Pura</a></li>
+                                <li><a href="#">Universitas Kristen Duta Wacana</a></li>
+                                <li><a href="#">Universitas Kristen Indonesia (UKI) Maluku</a></li>
+                                <li><a href="#">Badan Otorita Danau Toba</a></li>
+                                <li><a href="#">BADAN KOORDINASI PENDIDIKAN BAHASA MANDARIN JAWA BARAT</a></li>
+                                <li><a href="#">YAYASAN PUSAT INSPIRATOR DAN PEMBERDAYAAN PEMUDA INDONESIA (PIPPI)</a>
+                                </li>
+                                <li><a href="#">1945 INSTITUTE</a></li>
+                                <li><a href="#">SMK Negeri 1 Pagaran</a></li>
+                                <li><a href="#">KEMENTERIAN KOORDINATOR BIDANG KEMARITIMAN</a></li>
+                                <li><a href="#">PT. Metrodata Electronics, Tbk</a></li>
+                                <li><a href="#">Pemerintah Kabupaten Toba Samosir</a></li>
+                                <li><a href="#">Akademik Farmasi Yayasan Tenaga Pembangunan Arjuna</a></li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseThree">
+                            Mitra Kerjasama Dengan IT Del Tahun 2018
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <strong>Berikut Mitra Kerjasama dengan Institut Teknologi Del Tahun 2018 :</strong>
+                            <ol>
+                                <li><a href="#">Punguan Parsadaan Guru Ni laingan Siregar Se-Indonesia</a></li>
+                                <li><a href="#">Universitas Esa Unggul</a></li>
+                                <li><a href="#">Hutahaean</a></li>
+                                <li><a href="#">Pemerintah Kabupaten Humbang Hasundutan</a></li>
+                                <li><a href="#">Pemerintah Kabupaten Toba Samosir</a></li>
+                                <li><a href="#">SMA/SMK Kristen Kalam Kudus Medan</a></li>
+                                <li><a href="#">Yayasan Kalam Kudus Indonesia Cabang Medan</a></li>
+                                <li><a href="#">PT Asuransi Sinar Mas</a></li>
+                                <li><a href="#">PT. Kalibrr Teknologi Personalia</a></li>
+                                <li><a href="#">Rumah Sakit Umum Daerah Dolok Sanggul</a></li>
+                                <li><a href="#">Universitas Budi Luhur</a></li>
+                                <li><a href="#">Badan Kerjasama Perguruan Tinggi Kristen Indonesia</a></li>
+                                <li><a href="#">Pemerintah Kabupaten Toba Samosir</a></li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Footer -->
+    <!-- Footer -->
+    <div class=" bg-dark text-white p-5">
+        <footer>
+            <div class="row ">
+                <div class="col-6 col-md-2 mb-3">
+                    <h5>Kontak Kami</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white ">Institut Teknologi DelJl.
+                                Sisingamangaraja, SitoluamaLaguboti, Toba SamosirSumatera Utara, IndonesiaKode </a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white ">Pos: 22381</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white ">Telp: +62 632 331234</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white ">Fax: +62 632 331116</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white ">Website:
+                                http://www.del.ac.id</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white ">Email: info@del.ac.id</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white ">Karir:
+                                karir@del.ac.id</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-2 mb-3">
+                    <h5>Get Connected On Social Media</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2 pt-2"><a href="#" class="nav-link p-0 text-white "><iconify-icon
+                                    icon="skill-icons:instagram" width="40px"></iconify-icon></a></li>
+                        <li class="nav-item mb-2 pt-2 "><a href="#" class="nav-link p-0 text-white "><iconify-icon
+                                    icon="devicon:twitter" width="33px" class="bg-light p-1 rounded"></iconify-icon></a>
+                        </li>
+                        <li class="nav-item mb-2 pt-2"><a href="#" class="nav-link p-0 text-white "><iconify-icon
+                                    icon="logos:facebook" width="40px"></iconify-icon></a></li>
+                        <li class="nav-item mb-2 pt-2"><a href="#" class="nav-link p-0 text-white "><iconify-icon
+                                    icon="bi:threads-fill" width="40px"></iconify-icon></a></li>
+                    </ul>
+                </div>
+
+
+
+
+                <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                    <p>&copy; 2022 Company, Inc. All rights reserved.</p>
+                    <ul class="list-unstyled d-flex">
+                        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+                                    <use xlink:href="#twitter" />
+                                </svg></a></li>
+                        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+                                    <use xlink:href="#instagram" />
+                                </svg></a></li>
+                        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+                                    <use xlink:href="#facebook" />
+                                </svg></a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </footer>
+    </div>
+
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="bootnavbar.js"></script>
+    <script>
+        new bootnavbar();
+    </script>
+</body>
+
+</html>
